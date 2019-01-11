@@ -1,0 +1,1 @@
+curl -d '{"id":"3333f623-fdd5-46fb-99e8-594d475b3333", "name":"Piotr", "role":"CUSTOMER"}' -H "Content-Type: application/json" -X POST http://localhost:8080/users
