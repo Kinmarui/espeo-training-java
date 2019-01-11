@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  rabbitmq:
+    container_name: dev-rabbitmq
+    image: rabbitmq:3.7.8-management
+    restart: always
+    ports:
+      - 5672:5672 # port for the daemon API, can be exposed to public.
+      - 15672:15672 # port for the Management interface
+    volumes:
+      - .definitions.json:/etc/rabbitmq/definitions.json
+      - .rabbitmq.config:/etc/rabbitmq/rabbitmq.config

@@ -1,0 +1,45 @@
+.gradle
+/build/
+*/build/
+*/out/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### OS ###
+.DS_Store
+
+### Project ###
+app/src/main/resources/application.properties
+app/environment.properties
+
+### Generated JOOQ ###
+src/main/generated
+
+### TOMCAT CONFIG ###
+catalina.base_IS_UNDEFINED/
+*/catalina.base_IS_UNDEFINED/
+
+
